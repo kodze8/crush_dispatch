@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'Harry';
+    src: url('../fonts/Harry\ Plain\ Squeezed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    background-color: #F84343;
+    margin: 0;
+    font-family: "Clarendon", "Passero One", "Job Clarendon Light", "Job Clarendon";
+}
+
+
+
+#title_container {
+    background-color: #F883D7;
+    background-color: #F84343;
+    color: #F3E9D6;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#title_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 2px;
+}
+
+.stars {
+    max-width: 40px;
+    min-width: 25px;
+    width: 30px;
+}
+
+#title {
+    font-size: 24px;
+    font-family: "Job Clarendon Light";
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+#line_container {
+    background-color: #F883D7; ;
+    background-color: #F84343;
+    border: none;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 1px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+.line{
+    height: 0.5px;
+    background-color: #F3E9D6;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 3.5px;
+}
+
+
+
+#pink_heart{
+    width: 53px;
+    height: auto;
+    position: fixed;
+    left: 0%;
+    top: -10px;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+.hidden-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F883D7; /* Semi-transparent background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.hidden-menu a, .hidden-menu button {
+    color: #F3E9D6;
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 10px;
+    font-family: 'Harry';
+    font-size: 28px;
+}
+
+.hidden-menu a:hover {
+    color: #2c74fe;
+    font-style: italic;
+}
+
+
+#close_container{
+    background-color: green;
+}
+#close-menu{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #F3E9D6;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    transform: translate(-5%, -5%);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#flying_lady_container{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+#flying_lady {
+    width: 40%;
+    transform: translateX(-5%) rotate(12deg);
+    margin-top: -10%;
+}
+
+
+
+
+#poem_container{
+    z-index: -10;
+    margin-top: -20%;
+    text-align: center;
+    justify-content: center;
+}
+#poem{
+    font-family: "Job Clarendon Light";
+    color: #F883D7;
+    z-index: -10;
+    letter-spacing: 0.5px;
+    font-size: 3vw;
+    margin: 0 auto;
+}
+.dots{
+    font-family: "Clarendon";
+    color: #F3E9D6;
+    font-size: 2vw;
+
+}
+
+
+#hearts_line_container{
+    overflow: hidden;
+    display: flex;
+}
+
+#hearts_line{
+    width: 110%;
+    margin-left: -1%;
+    margin-top: -25%;
+    height: auto;
+    display: inline-block;
+    display: inline-block;
+}
+
+
+#bird_container{
+    margin-top: -25%;
+    position: absolute;
+    z-index: -10;
+    display: flex;
+}
+
+#bird {
+    width: 25%;
+    height: auto;
+    margin-left: 5%;
+}
+#about_text{
+    font-family: "Passero One";
+    font-size: 4vw;
+    color: #F883D7;
+    margin: 5% 5% 0 10%;
+    z-index: -10;
+}
+
+
+.semi_colon_container {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20%;
+    z-index: -10;
+}
+
+#semi_colon {
+    position: relative;
+    width: 110%;
+}
+
+
+
+#contact_form {
+    color: #F3E9D6;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+ #contact_title_container {
+    display: flex;
+    position: relative;
+    color: #F3E9D6;
+    margin-top: -2%;
+
+    z-index: -2;
+}
+#contact_title {
+    font-family: "Job Clarendon Light";
+    font-size: 6vw;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+
+
+#moon {
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+}
+
+
+#cupidon_container{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    gap: 50%;
+}
+
+.cupidons{
+    width: 20%;
+}
+#cupidon_left{
+    transform: rotate(20deg);
+}
+#cupidon_right{
+    transform: rotate(-20deg);
+}
+
+
+
+
+
+#cloud_container {
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: -10%;
+    z-index: -1;
+    text-align: center;
+}
+
+
+
+
+#cloud {
+    width: 95%;
+    margin-left: 6%;
+
+}
+
+
+
+
+
+
+
+
+#inputs {
+    z-index: 10;
+    position: relative;
+    margin-top: -42%;
+    padding: 3%;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+
+
+
+
+ #email_input {
+    position: absolute;
+    background-color: #F6A1DE;
+    border: 1px solid #F3E9D6;
+    color: #F3E9D6;
+    border-radius: 10px;
+    font-family: 'Harry';
+    width: 15%;
+    outline: none;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: -18%;
+}
+
+
+
+#email_input::placeholder {
+    color:#F3E9D6;
+}
+
+
+
+#letter_input {
+    font-family: 'Harry';
+    background-color: #F6A1DE;
+    border: 1px solid #F3E9D6;
+    font-size: 14px;
+    color:#F3E9D6;
+    outline: none;
+
+    position: absolute;
+    padding: 5px;
+    margin-top: 1%;
+    margin-left: -18%;
+
+    width: 35%;
+    height: 240%;
+    z-index: 10;
+    border-radius: 10px;
+
+}
+
+#letter_input::placeholder {
+    color:#F3E9D6;
+    z-index: 10;
+}
+
+#letter_send {
+    font-family: 'Harry';
+    background-color: #F6A1DE;
+    border: 1px solid #F3E9D6;
+    border-radius: 10px;
+    position: absolute;
+    color: #F3E9D6;
+    margin-left: 8%;
+    margin-top: 22%;
+    width: 10%;
+    padding:3px;
+}
+
+
+#letter_send:hover {
+    color: #2c74fe;
+    border:  1px solid #2c74fe;
+}
+
+
+
+#semi_colon_2{
+    margin-top: 11%;
+    width: 110%;
+}
+
+
+
+.link-container {
+    display: flex;
+    margin: -0.8% 0% 0.5% 0%;
+    align-items: center; /* Center items vertically if needed */
+}
+
+.custom-link {
+    font-family: "Harry";
+    color: #F3E9D6;
+    font-size: 1.2vw;
+    margin: 0.5% 1%;
+    text-decoration: none;
+}
+
+#link5 {
+    margin-left: auto; /* Pushes #link5 to the far right */
+}
+
+
+#link3:hover {
+    color: #2c74fe;
+    font-style: italic;
+}
+
+#link4:hover {
+    color: #2c74fe;
+    font-style: italic;
+}
+
+
+@media (max-width: 800px) {
+
+    #letter_input {
+        margin-top: 1%;
+        height: 190%;
+    }
+
+    #letter_send{
+        margin-top: 21%;
+    }
+}
+
+@media (max-width: 600px) {
+    #letter_input {
+        margin-top: 3%;
+        max-height:  110%;
+    }
+    #letter_send{
+        margin-top: 18%;
+    }
+}
+
+
+
+
+
+
