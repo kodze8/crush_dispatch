@@ -1,0 +1,51 @@
+ body{
+    background-color: #F84343;
+    margin: 0;
+    font-family: "Clarendon", "Passero One", "Job Clarendon Light", "Job Clarendon";
+}
+
+
+
+#back_container{
+    /* background-color: green; */
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+
+
+#pink_heart{
+    width: 5%;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 2;
+}
+
+
+#card_container{
+ width: 100%;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+
+}
+
+
+#card{
+    width: 90%;
+
+}
+
+#response{
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 10%;
+    font-size: 4vw;
+    font-family: "Passero One";
+    width: 45%;
+    color:  #F883D7; ;
+}
+
+
+
+

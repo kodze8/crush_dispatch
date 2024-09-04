@@ -6,12 +6,6 @@ password = "pars fkya yjqf sozd"
 
 SUBJECT_DEFAULT_TEXT = "Letter from your crush"
 
-
-# def __generate_msg(body, subject=SUBJECT_DEFAULT_TEXT):
-#     if subject is None:
-#         subject = SUBJECT_DEFAULT_TEXT
-#     return f"Subject:{subject}\n\n{body}\n"
-
 def __generate_msg(body, subject):
     if subject is None:
         subject = SUBJECT_DEFAULT_TEXT

@@ -16,7 +16,7 @@
 
 <!--    <div>-->
 <!--        <a href="{{ url_for('send_letter') }}" class="send letter click"> send letter</a>-->
-<!--        <a href="{{ url_for('love_poems') }}" class="poems click"> poems </a>-->
+<!--        <a href="{{ url_for('love_poems') }}" class="poems.css click"> poems.css </a>-->
 <!--        <a href="{{ url_for('home') }}" class="home click"> home page </a>-->
 <!--    </div>-->
 
@@ -113,7 +113,7 @@
             <div id="mail-content">
                 <form method="post" action="#">
 
-                    <input id="adress_input" name="address"  placeholder ="Email Adress" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  type="text">
+                    <input id="adress_input" name="address"  placeholder ="Email Adress" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  type="email">
                     <input id="subject_input" name="subject"  placeholder ="Subject" type="text">
                     <textarea id="letter_input" name="letter" placeholder ="Dear ..." required></textarea>
 

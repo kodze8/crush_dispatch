@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,15 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-     <link rel="stylesheet" href="../static/css/letter_response.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap">
+    <link rel="stylesheet" href="../static/css/letter_response.css"/>
 </head>
 <body>
-<a href="{{ url_for('home') }}" class="home click"> home page </a>
 
+<div id="back_container">
+    <a href="{{ url_for('home') }}">
+        <img id="pink_heart" src="../static/images/pink_heart.png" alt="Pink Heart">
+    </a>
+</div>
 
-
-
-
+    <div id="card_container">
+        <img  id="card" src="../static/images/postcard.png" alt="">
+        <h1 id="response">{{response}}</h1>
+    </div>
 
 </body>
 </html>

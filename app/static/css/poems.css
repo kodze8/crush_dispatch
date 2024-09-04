@@ -1,0 +1,18 @@
+body{
+    background-color: #F84343;
+    margin: 0;
+    font-family: "Clarendon", "Passero One", "Job Clarendon Light", "Job Clarendon";
+    padding:1%;
+}
+
+
+#home_link{
+   color: #F3E9D6;
+   margin:1%;
+}
+#info{
+     font-family: "Passero One";
+     color: #F3E9D6;
+     margin: 1%;
+     font-size:50px;
+}
