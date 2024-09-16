@@ -1,14 +1,22 @@
- @font-face {
+@font-face {
     font-family: 'Harry';
     src: url('../fonts/Harry\ Plain\ Squeezed.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Passero One';
+    src:url('../fonts/passeroone.otf') format('opentype');
+}
+@font-face {
+    font-family: "Job Clarendon Regular";
+    src:url('../fonts/job_claredon.otf') format('opentype');
+}
 
 body{
     font-family: Arial, sans-serif;
     background-color: #F84343;
-    font-family: "Clarendon", "Job Clarendon Light", "Job Clarendon";
+    font-family: "Job Clarendon Regular", "Clarendon";
     margin: 0;
 }
 
@@ -74,11 +82,11 @@ body{
 
 
 #pink_heart{
-    width: 53px;
+    width: 50px;
     height: auto;
     position: fixed;
-    left: 0%;
-    top: -10px;
+    left: 0.5%;
+    top: 3px;
     z-index: 100;
 }
 
@@ -164,12 +172,8 @@ body{
 
 #subject{
     font-size: 30px;
-    font-family: "Passero One";
+    font-family: 'Passero One';
 }
-
-
-
-
 
 
 

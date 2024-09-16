@@ -6,10 +6,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>shoot your shot</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap">
-    <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/6a2d8ac4c95c5341f7f1422a1e1dbca6?family=Job+Clarendon+Light" >
+    <title>Crush Dispatch</title>
     <link rel="stylesheet" href="../static/css/home.css"/>
+    <link rel="icon" href="../static/images/bird.png" type="image/png">
+
 </head>
 
 
@@ -23,7 +23,7 @@
             <h1 id="title">The Crush Dispatch</h1>
             <img class="stars" id="star2" src="../static/images/title_star.png" alt="">
             <div>
-                <img id="pink_heart" src="../static/images/pink_heart.png" alt="Pink Heart">
+                <img id="pink_heart" src="../static/images/pink_heart1.png" alt="Pink Heart">
             </div>
         </div>
         <div id="line_container">
@@ -49,12 +49,6 @@
         <img id="flying_lady" src="../static/images/flying_lady.png" alt="Flying Lady">
 
     </div>
-
-
-    {% if error_message %}
-    <p style="color: red;">{{ error_message }}</p>
-    {% endif %}
-
 
 
     <div id="poem_container">
@@ -115,7 +109,7 @@
 
     <div id="inputs">
         <form  method="post" action="#">
-            <input id="email_input" type="email" name="client_mail"  placeholder="Email address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+            <input id="email_input" type="email" name="client_mail"  placeholder="Email address" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$"  >
             <br>
             <textarea id="letter_input" name="inquiry" placeholder="For any inquiries text us here..." required></textarea>
             <input id="letter_send" type="submit" value="Send">

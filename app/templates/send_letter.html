@@ -1,57 +1,3 @@
-<!--<!doctype html>-->
-<!--<html lang="en">-->
-
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta name="viewport"-->
-<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
-<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
-<!--    <title>shoot your shot</title>-->
-<!--</head>-->
-
-
-
-<!--<body>-->
-
-
-<!--    <div>-->
-<!--        <a href="{{ url_for('send_letter') }}" class="send letter click"> send letter</a>-->
-<!--        <a href="{{ url_for('love_poems') }}" class="poems.css click"> poems.css </a>-->
-<!--        <a href="{{ url_for('home') }}" class="home click"> home page </a>-->
-<!--    </div>-->
-
-<!--<br>-->
-<!--<br>-->
-
-<!--<form method="post" action="#">-->
-<!--    <label>Adress</label>-->
-<!--    <br>-->
-<!--    <input name="address" type="text">-->
-
-<!--    <br><br><br>-->
-
-<!--    <label>letter</label>-->
-<!--    <br>-->
-<!--    <textarea name="letter" placeholder ="Dear ..."></textarea>-->
-<!--    <input type="submit" value="Send">-->
-<!--</form>-->
-
-<!--</body>-->
-<!--</html>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -62,9 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/send_letter.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap">
     <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/6a2d8ac4c95c5341f7f1422a1e1dbca6?family=Job+Clarendon+Light" >
-    <title>Document</title>
+    <title>Crush Dispatch</title>
 </head>
 
 <body>
@@ -75,7 +20,7 @@
             <h1 id="title">The Crush Dispatch</h1>
             <img class="stars" id="star2" src="../static/images/title_star.png" alt="">
             <div>
-                <img id="pink_heart" src="../static/images/pink_heart.png" alt="Pink Heart">
+                <img id="pink_heart" src="../static/images/pink_heart1.png" alt="Pink Heart">
             </div>
         </div>
         <div id="line_container">
@@ -113,7 +58,7 @@
             <div id="mail-content">
                 <form method="post" action="#">
 
-                    <input id="adress_input" name="address"  placeholder ="Email Adress" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  type="email">
+                    <input id="adress_input" name="address"  placeholder ="Email Adress" required  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$"  type="email">
                     <input id="subject_input" name="subject"  placeholder ="Subject" type="text">
                     <textarea id="letter_input" name="letter" placeholder ="Dear ..." required></textarea>
 

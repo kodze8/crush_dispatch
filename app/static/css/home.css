@@ -4,13 +4,23 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
+@font-face {
+    font-family: 'Passero One';
+    src:url('../fonts/passeroone.otf') format('opentype');
+}
+@font-face {
+    font-family: "Job Clarendon Regular";
+    src:url('../fonts/job_claredon.otf') format('opentype');
+}
+html{
+ min-height:1000px;
+}
 
 body{
     background-color: #F84343;
     margin: 0;
-    font-family: "Clarendon", "Passero One", "Job Clarendon Light", "Job Clarendon";
+    font-family: "Job Clarendon Regular", "Clarendon";
+    min-height:1000px;
 }
 
 
@@ -28,6 +38,8 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
+
 }
 
 #title_content {
@@ -45,8 +57,8 @@ body{
 }
 
 #title {
-    font-size: 24px;
-    font-family: "Job Clarendon Light";
+    font-size: 3.5vh;
+    font-family: "Job Clarendon Regular", "Clarendon";
     font-weight: 500;
     letter-spacing: 0.5px;
     margin: 0;
@@ -74,11 +86,11 @@ body{
 
 
 #pink_heart{
-    width: 53px;
+    width: 50px;
     height: auto;
     position: fixed;
-    left: 0%;
-    top: -10px;
+    left: 0.5%;
+    top: 3px;
     z-index: 100;
 }
 
@@ -124,7 +136,7 @@ body{
 #close-menu{
     background-color: transparent;
     border: none;
-    font-size: 20px;
+    font-size: 21px;
     cursor: pointer;
     color: #F3E9D6;
     position: absolute;
@@ -162,7 +174,7 @@ body{
 #flying_lady {
     width: 40%;
     transform: translateX(-5%) rotate(12deg);
-    margin-top: -10%;
+    margin-top: -12%;
 }
 
 
@@ -175,7 +187,7 @@ body{
     justify-content: center;
 }
 #poem{
-    font-family: "Job Clarendon Light";
+    font-family: "Job Clarendon Regular", "Clarendon";
     color: #F883D7;
     z-index: -10;
     letter-spacing: 0.5px;
@@ -218,7 +230,7 @@ body{
     margin-left: 5%;
 }
 #about_text{
-    font-family: "Passero One";
+    font-family: 'Passero One';
     font-size: 4vw;
     color: #F883D7;
     margin: 5% 5% 0 10%;
@@ -253,11 +265,10 @@ body{
     position: relative;
     color: #F3E9D6;
     margin-top: -2%;
-
     z-index: -2;
 }
 #contact_title {
-    font-family: "Job Clarendon Light";
+    font-family: "Job Clarendon Regular", "Clarendon";
     font-size: 6vw;
     margin-top: 35%;
     margin-left: 30%;
@@ -333,7 +344,7 @@ body{
 
 
 
- #email_input {
+#email_input {
     position: absolute;
     background-color: #F6A1DE;
     border: 1px solid #F3E9D6;
@@ -342,7 +353,7 @@ body{
     font-family: 'Harry';
     width: 15%;
     outline: none;
-    font-size: 12px;
+    font-size: 2vh;
     padding: 3px;
     margin-left: -18%;
 }
@@ -359,12 +370,12 @@ body{
     font-family: 'Harry';
     background-color: #F6A1DE;
     border: 1px solid #F3E9D6;
-    font-size: 14px;
+    font-size: 2vh;
     color:#F3E9D6;
     outline: none;
 
     position: absolute;
-    padding: 5px;
+    padding: 6px;
     margin-top: 1%;
     margin-left: -18%;
 
@@ -391,6 +402,7 @@ body{
     margin-top: 22%;
     width: 10%;
     padding:3px;
+    font-size: 1.5vh;
 }
 
 

@@ -1,4 +1,5 @@
 import smtplib
+import os
 from app.model import app_exceptions
 
 sender = "crushdispatch@gmail.com"
@@ -10,7 +11,10 @@ def __generate_msg(body, subject):
     if subject is None:
         subject = SUBJECT_DEFAULT_TEXT
 
-    with open("../templates/email_layout.html", "r") as file:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    template_path = os.path.join(base_dir, '..', 'templates', 'email_layout.html')
+
+    with open(template_path, 'r') as file:
         html_content = file.read()
 
     html_content = html_content.replace("{{subject}}", subject)
@@ -47,6 +51,6 @@ def receive_email(client_mail, body):
 
 if __name__ == '__main__':
     print("Sending...")
-    rec = "barbaresaikodze@gmail.com"
+    rec = "mariam.saikodze@studnet.uva.nl"
     bod = "Lorem ipsum dolor sit amet,  Ut enim ad minim veniam, quis nostrud exercitation "
     send_email(rec, bod)

@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'Passero One';
+    src:url('../fonts/passeroone.otf') format('opentype');
+}
+@font-face {
+    font-family: "Job Clarendon Regular";
+    src:url('../fonts/job_claredon.otf') format('opentype');
+}
 body{
     background-color: #F84343;
     margin: 0;
-    font-family: "Clarendon", "Passero One", "Job Clarendon Light", "Job Clarendon";
+    font-family: "Job Clarendon Regular", "Clarendon";
     padding:1%;
 }
 
@@ -11,7 +19,7 @@ body{
    margin:1%;
 }
 #info{
-     font-family: "Passero One";
+     font-family: 'Passero One';
      color: #F3E9D6;
      margin: 1%;
      font-size:50px;
